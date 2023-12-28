@@ -9520,7 +9520,7 @@ function xs() {
                   children: [
                     a.jsx("img", {
                       className: H.item__photo,
-                      src: "/public/photoListing/Parent.png",
+                      src: "../photoListing/Parent.png",
                     }),
                     a.jsx("h2", { children: "The Dandy chair" }),
                     a.jsx("span", { children: "£250" }),
@@ -9531,7 +9531,7 @@ function xs() {
                   children: [
                     a.jsx("img", {
                       className: H.item__photo,
-                      src: "/public/photoListing/Parent(1).png",
+                      src: "../photoListing/Parent(1).png",
                     }),
                     a.jsx("h2", { children: "Rustic Vase Set" }),
                     a.jsx("span", { children: "£155" }),
@@ -9542,7 +9542,7 @@ function xs() {
                   children: [
                     a.jsx("img", {
                       className: H.item__photo,
-                      src: "/public/photoListing/Parent(2).png",
+                      src: "../photoListing/Parent(2).png",
                     }),
                     a.jsx("h2", { children: "The Silky Vase" }),
                     a.jsx("span", { children: "£125" }),
@@ -9553,7 +9553,7 @@ function xs() {
                   children: [
                     a.jsx("img", {
                       className: H.item__photo,
-                      src: "/public/photoListing/Parent(3).png",
+                      src: "../photoListing/Parent(3).png",
                     }),
                     a.jsx("h2", { children: "The Lucy Lamp" }),
                     a.jsx("span", { children: "£399" }),
@@ -9582,7 +9582,7 @@ function xs() {
                   children: [
                     a.jsx("img", {
                       className: H.item__photo,
-                      src: "/public/photoListing/Large.png",
+                      src: "../photoListing/Large.png",
                     }),
                     a.jsx("h2", { children: "The Poplar suede sofa" }),
                     a.jsx("span", { children: "£980" }),
@@ -9593,7 +9593,7 @@ function xs() {
                   children: [
                     a.jsx("img", {
                       className: H.item__photo,
-                      src: "/public/photoListing/Parent.png",
+                      src: "../photoListing/Parent.png",
                     }),
                     a.jsx("h2", { children: "The Dandy chair" }),
                     a.jsx("span", { children: "£250" }),
@@ -9604,7 +9604,7 @@ function xs() {
                   children: [
                     a.jsx("img", {
                       className: H.item__photo,
-                      src: "/public/photoListing/Photo.png",
+                      src: "../photoListing/Photo.png",
                     }),
                     a.jsx("h2", { children: "The Dandy chair" }),
                     a.jsx("span", { children: "£250" }),
@@ -9693,7 +9693,7 @@ function fp() {
         }),
         a.jsx("img", {
           className: Or.container__rightBlock,
-          src: "/public/Image.png",
+          src: "../Image.png",
         }),
       ],
     }),
@@ -10803,49 +10803,49 @@ function _0(e) {
 const tn = [
   {
     id: 1,
-    photo: "/public/photoListing/Parent(1).png",
+    photo: "../photoListing/Parent(1).png",
     name: "The Dandy chair",
     price: "£250",
     about: "A timeless ceramic vase with a tri color grey glaze.",
   },
   {
     id: 2,
-    photo: "/public/photoListing/Parent(2).png",
+    photo: "../photoListing/Parent(2).png",
     name: "The Dandy chair",
     price: "£250",
     about: "A timeless ceramic vase with a tri color grey glaze.",
   },
   {
     id: 3,
-    photo: "/public/photoListing/Parent(3).png",
+    photo: "../photoListing/Parent(3).png",
     name: "The Dandy chair",
     price: "£250",
     about: "A timeless ceramic vase with a tri color grey glaze.",
   },
   {
     id: 4,
-    photo: "/public/photoListing/Parent.png",
+    photo: "../photoListing/Parent.png",
     name: "The Dandy chair",
     price: "£250",
     about: "A timeless ceramic vase with a tri color grey glaze.",
   },
   {
     id: 5,
-    photo: "/public/photoListing/Parent(1).png",
+    photo: "../photoListing/Parent(1).png",
     name: "The Dandy chair",
     price: "£250",
     about: "A timeless ceramic vase with a tri color grey glaze.",
   },
   {
     id: 6,
-    photo: "/public/photoListing/Parent(2).png",
+    photo: "../photoListing/Parent(2).png",
     name: "The Dandy chair",
     price: "£250",
     about: "A timeless ceramic vase with a tri color grey glaze.",
   },
   {
     id: 7,
-    photo: "/public/photoListing/Parent(3).png",
+    photo: "../photoListing/Parent(3).png",
     name: "The Dandy chair",
     price: "£250",
     about: "A timeless ceramic vase with a tri color grey glaze.",
