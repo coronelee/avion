@@ -1,0 +1,112 @@
+@import "./fonts.scss";
+
+.wrapper {
+  width: 100vw;
+  min-height: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  &__container {
+    width: 1280px;
+    min-height: 600px;
+    height: auto;
+    display: flex;
+    .container__left {
+      width: calc(55% - 80px);
+      height: auto;
+      background-color: rgba(42, 37, 75, 1);
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      div {
+        h1 {
+          color: white;
+          font-size: clamp(22px, 4vw, 32px);
+          font-weight: 400;
+          line-height: clamp(22px, 5vw, 44px);
+          letter-spacing: 0em;
+          text-align: left;
+          font-family: $font_first;
+        }
+        div {
+          max-width: 170px;
+          max-height: 55px;
+          padding: 10px;
+          width: auto;
+          height: auto;
+          background-color: #494465;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          a {
+            font-family: $font_second;
+            font-size: clamp(15px, 2vw, 22px);
+            font-weight: 400;
+            line-height: clamp(15px, 2vw, 22px);
+            letter-spacing: 0em;
+            color: white;
+            border: 0;
+            text-align: center;
+          }
+        }
+      }
+      span {
+        font-family: $font_second;
+        font-size: clamp(15px, 2vw, 22px);
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+      }
+    }
+    .container__right {
+      width: 45%;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .wrapper {
+    min-height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 950px) {
+  .wrapper {
+    &__container {
+      min-height: auto;
+      .container__left {
+        div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          h1,
+          span {
+            text-align: center;
+          }
+        }
+        span {
+          text-align: center;
+        }
+        height: auto;
+        width: 100%;
+      }
+      .container__right {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 770px) {
+  .wrapper { 
+    margin-top: 100px;
+  }
+}
