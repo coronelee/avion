@@ -1,4 +1,3 @@
-import { useHref } from "react-router-dom";
 import styles from "../../styles/HeroBlocks.module.scss";
 export default function HeroBlocks() {
   return (

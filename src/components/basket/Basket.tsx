@@ -1,6 +1,4 @@
-import Baskett from "./Baskett";
 import base from "../listingFull/base";
-import { useState } from "react";
 import styles from "../../styles/Basket.module.scss";
 export default function Basket() {  
   const price = 100;

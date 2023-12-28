@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "../../styles/ListingItem.module.scss";
 import base from "../listingFull/base";
-import Listings from "../mainPage/Listings";
 export default function ListingItem() {
   const [count, setCount] = useState(0);
   if (count < 0) setCount(0);
